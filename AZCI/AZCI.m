@@ -10,4 +10,8 @@
 
 @implementation AZCI
 
++ (instancetype)ci {
+    return [AZCI new];
+}
+
 @end

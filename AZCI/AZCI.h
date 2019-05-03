@@ -10,4 +10,6 @@
 
 @interface AZCI : NSObject
 
++ (instancetype)ci;
+
 @end
