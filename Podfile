@@ -8,12 +8,11 @@ inhibit_all_warnings!
 
 target'AZCI' do
 
-	# pod 'Kiwi'
 
 end
 
 target'AZCITests' do
 
-	# pod 'Kiwi'
+	pod 'Kiwi'
 
 end

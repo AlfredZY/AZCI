@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BBC0ED5FD600AF829A7AC72 /* libPods-AZCITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B86EDB57BB221DFE43C600CB /* libPods-AZCITests.a */; };
+		226074085429270CF223C3B4 /* libPods-AZCITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63796A1E70A850E33848132F /* libPods-AZCITests.a */; };
 		BBB60AAD227C951300DE9FF7 /* AZCI.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB60AAC227C951300DE9FF7 /* AZCI.m */; };
 		BBB60AAE227C951300DE9FF7 /* AZCI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBB60AAB227C951300DE9FF7 /* AZCI.h */; };
 		BBB60ABB227C952600DE9FF7 /* AZCITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB60ABA227C952600DE9FF7 /* AZCITests.m */; };
@@ -19,7 +19,6 @@
 		BBB60AD6227C953D00DE9FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB60AD4227C953D00DE9FF7 /* LaunchScreen.storyboard */; };
 		BBB60AD9227C953D00DE9FF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB60AD8227C953D00DE9FF7 /* main.m */; };
 		BBB60AE0227C955500DE9FF7 /* libAZCI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB60AA8227C951300DE9FF7 /* libAZCI.a */; };
-		FC08CCE25923C297E98608BE /* libPods-AZCI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 003D8383CE673DD8222FFDD9 /* libPods-AZCI.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,12 +52,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		003D8383CE673DD8222FFDD9 /* libPods-AZCI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AZCI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A1E9498392F6A90A462883D /* Pods-AZCI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZCI.debug.xcconfig"; path = "Target Support Files/Pods-AZCI/Pods-AZCI.debug.xcconfig"; sourceTree = "<group>"; };
-		5CB207FE216DEE919556D9F8 /* Pods-AZCITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZCITests.release.xcconfig"; path = "Target Support Files/Pods-AZCITests/Pods-AZCITests.release.xcconfig"; sourceTree = "<group>"; };
-		837A76968CAFC45AE909E50B /* Pods-AZCITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZCITests.debug.xcconfig"; path = "Target Support Files/Pods-AZCITests/Pods-AZCITests.debug.xcconfig"; sourceTree = "<group>"; };
-		A5E22E59B57CA86B124BA894 /* Pods-AZCI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZCI.release.xcconfig"; path = "Target Support Files/Pods-AZCI/Pods-AZCI.release.xcconfig"; sourceTree = "<group>"; };
-		B86EDB57BB221DFE43C600CB /* libPods-AZCITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AZCITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A5382CC51C8A687FDE1366 /* Pods-AZCITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZCITests.release.xcconfig"; path = "Target Support Files/Pods-AZCITests/Pods-AZCITests.release.xcconfig"; sourceTree = "<group>"; };
+		63796A1E70A850E33848132F /* libPods-AZCITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AZCITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB60AA8227C951300DE9FF7 /* libAZCI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAZCI.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB60AAB227C951300DE9FF7 /* AZCI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZCI.h; sourceTree = "<group>"; };
 		BBB60AAC227C951300DE9FF7 /* AZCI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZCI.m; sourceTree = "<group>"; };
@@ -75,6 +70,7 @@
 		BBB60AD5227C953D00DE9FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBB60AD7227C953D00DE9FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBB60AD8227C953D00DE9FF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7A1AF97EB79873D7F1B1CE1 /* Pods-AZCITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZCITests.debug.xcconfig"; path = "Target Support Files/Pods-AZCITests/Pods-AZCITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +78,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC08CCE25923C297E98608BE /* libPods-AZCI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +86,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBB60ABD227C952600DE9FF7 /* libAZCI.a in Frameworks */,
-				0BBC0ED5FD600AF829A7AC72 /* libPods-AZCITests.a in Frameworks */,
+				226074085429270CF223C3B4 /* libPods-AZCITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,13 +101,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4DBECC0066F51D0CF844A097 /* Pods */ = {
+		5DF6996937513A94C5D15E16 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5A1E9498392F6A90A462883D /* Pods-AZCI.debug.xcconfig */,
-				A5E22E59B57CA86B124BA894 /* Pods-AZCI.release.xcconfig */,
-				837A76968CAFC45AE909E50B /* Pods-AZCITests.debug.xcconfig */,
-				5CB207FE216DEE919556D9F8 /* Pods-AZCITests.release.xcconfig */,
+				C7A1AF97EB79873D7F1B1CE1 /* Pods-AZCITests.debug.xcconfig */,
+				30A5382CC51C8A687FDE1366 /* Pods-AZCITests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -126,7 +119,7 @@
 				BBB60AC8227C953B00DE9FF7 /* Demo */,
 				BBB60AA9227C951300DE9FF7 /* Products */,
 				BBB60ADF227C955500DE9FF7 /* Frameworks */,
-				4DBECC0066F51D0CF844A097 /* Pods */,
+				5DF6996937513A94C5D15E16 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,8 +170,7 @@
 		BBB60ADF227C955500DE9FF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				003D8383CE673DD8222FFDD9 /* libPods-AZCI.a */,
-				B86EDB57BB221DFE43C600CB /* libPods-AZCITests.a */,
+				63796A1E70A850E33848132F /* libPods-AZCITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,7 +182,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBB60AB1227C951300DE9FF7 /* Build configuration list for PBXNativeTarget "AZCI" */;
 			buildPhases = (
-				46DC813BD8B22AF02E6C7195 /* [CP] Check Pods Manifest.lock */,
 				BBB60AA4227C951300DE9FF7 /* Sources */,
 				BBB60AA5227C951300DE9FF7 /* Frameworks */,
 				BBB60AA6227C951300DE9FF7 /* CopyFiles */,
@@ -208,7 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBB60AC0227C952600DE9FF7 /* Build configuration list for PBXNativeTarget "AZCITests" */;
 			buildPhases = (
-				0F7266F2A568DCEBF0D8679B /* [CP] Check Pods Manifest.lock */,
+				7A329810ECA093308B6448E9 /* [CP] Check Pods Manifest.lock */,
 				BBB60AB4227C952600DE9FF7 /* Sources */,
 				BBB60AB5227C952600DE9FF7 /* Frameworks */,
 				BBB60AB6227C952600DE9FF7 /* Resources */,
@@ -302,7 +293,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0F7266F2A568DCEBF0D8679B /* [CP] Check Pods Manifest.lock */ = {
+		7A329810ECA093308B6448E9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -318,28 +309,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-AZCITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		46DC813BD8B22AF02E6C7195 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AZCI-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -524,7 +493,6 @@
 		};
 		BBB60AB2227C951300DE9FF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A1E9498392F6A90A462883D /* Pods-AZCI.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				OTHER_LDFLAGS = "-ObjC";
@@ -536,7 +504,6 @@
 		};
 		BBB60AB3227C951300DE9FF7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5E22E59B57CA86B124BA894 /* Pods-AZCI.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				OTHER_LDFLAGS = "-ObjC";
@@ -548,7 +515,7 @@
 		};
 		BBB60AC1227C952600DE9FF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 837A76968CAFC45AE909E50B /* Pods-AZCITests.debug.xcconfig */;
+			baseConfigurationReference = C7A1AF97EB79873D7F1B1CE1 /* Pods-AZCITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AZCITests/Info.plist;
@@ -565,7 +532,7 @@
 		};
 		BBB60AC2227C952600DE9FF7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CB207FE216DEE919556D9F8 /* Pods-AZCITests.release.xcconfig */;
+			baseConfigurationReference = 30A5382CC51C8A687FDE1366 /* Pods-AZCITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AZCITests/Info.plist;
