@@ -14,4 +14,8 @@
     return [AZCI new];
 }
 
+- (void)log {
+    NSLog(@"Hello,World!");
+}
+
 @end

@@ -12,4 +12,6 @@
 
 + (instancetype)ci;
 
+- (void)log;
+
 @end
