@@ -20,7 +20,7 @@ or alternatively using `brew cask install fastlane`
 ```
 fastlane ios AZCITests
 ```
-Description of what the lane does
+AZCI单元测试+覆盖率
 
 ----
 

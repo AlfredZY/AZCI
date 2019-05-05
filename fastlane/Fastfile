@@ -16,7 +16,7 @@
 default_platform(:ios)
 
 platform :ios do
-  desc "Description of what the lane does"
+  desc "AZCI单元测试+覆盖率"
   lane :AZCITests do
     # add actions here: https://docs.fastlane.tools/actions
        run_tests(scheme: "AZCITests",
@@ -24,6 +24,19 @@ platform :ios do
               fail_build: false,
               configuration: "Debug",
               output_types: "html,junit",
+              # devices: ["iPhone 6s", "iPad Air"],
+              devices: ["iPhone 6s"],
               output_files: "AZCITests.html, AZCITests.xml")
+
+       slather(
+            output_directory: "fastlane/test_output/slather",
+            workspace: "AZCI.xcworkspace",
+            html: true,
+            scheme: "AZCITests",
+            proj: "AZCI.xcodeproj",
+            ignore: ["Pods/*"],
+            verbose: true,
+            # jenkins:true,
+            )
   end
 end
