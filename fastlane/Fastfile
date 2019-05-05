@@ -34,7 +34,7 @@ platform :ios do
             html: true,
             scheme: "AZCITests",
             proj: "AZCI.xcodeproj",
-            ignore: ["Pods/*"],
+            ignore: ["Pods/*","AZCITests/*","Demo/*"],
             verbose: true,
             # jenkins:true,
             )
